@@ -1,5 +1,9 @@
 # Perico
 
+<p align="center">
+  <img src="./logo.jpeg" alt="Perico logo" width="200">
+</p>
+
 **Flashcard app with spaced repetition (not only for language learning).**
 
 Perico helps you memorize vocabulary and phrases using the SM-2 spaced repetition algorithm. Import your own decks via CSV or download an example to get started.
