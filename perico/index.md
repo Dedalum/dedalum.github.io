@@ -8,21 +8,32 @@
 
 Perico helps you memorize vocabulary and phrases using the SM-2 spaced repetition algorithm. Import your own decks via CSV or download an example to get started.
 
-I have been using tools such as Anki, great, but could not update decks as I kept building them, aside from within the app. True pain, inputing cards one by one,
-from my phone, is a no-go, so I ended up with massive fancy decks shared by other users. Greed might trick one into believe more is better but in my case, this was a great way for losing my way.
+| | |
+|---|---|
+| [Short Story](#short-story) | Why I built Perico |
+| [Features](#features) | What Perico can do |
+| [Quick Start](#quick-start) | Get up and running |
+| [Privacy Policy](#privacy-policy) | How your data is handled |
 
-I now build my decks with AI. I study Chinese with the Assimil method. My current flow is:
+## Short story
+
+I had been using tools such as Anki, a wonderful tool, but could not update decks as I kept building them, other than from within the app. For me, a true pain: inputting cards one by one,
+from my phone, is a no-go. I ended up lazily downloading massive fancy decks shared by other users. Greed tricked me into believing more (thousands of cards) was better than slowly built and controlled personal decks,
+but I eventually realised this was nothing but losing focus on the goal: actually learning a language.
+
+I now build my decks with _AI_. I study Chinese with the Assimil method. My current flow is:
 1. Study the textbook
-2. Log the vocabulary and sentences by speaking it to an AI (e.g ChatGPT does indeed understand my Chinese prononciation). Writing the vocabulary works fine but speaking for the lazy works just as well.
-3. Prompt the AI to generate the CSV following the required format: 
+2. Log the vocabulary and sentences by speaking them to an AI (e.g. ChatGPT does indeed understand my Chinese pronunciation). Writing the vocabulary works fine, but speaking works just as well for the lazy.
+3. Prompt the AI to generate the CSV following the required format.
+Example prompt:
 > Generate a CSV with columns:
 > - number: a string, format as `lesson_level:card_nb`
-> - front: the text in our langauge, the question
-> - back: the answer (e.g the translation)
+> - front: the text in our language, the question
+> - back: the answer (e.g. the translation)
 > - hint: the pinyin text
 > - tag: `lesson_level`
 
-I format the number as: `lesson_level:card_nb` and use the hints for various info I want to have access to before revealing the answer (e.g Pinyin prononciation for Chinese learning, but can be any
+I format the number as `lesson_level:card_nb` and use the hints for various info I want to have access to before revealing the answer (e.g. Pinyin pronunciation for Chinese learning, but can be any
 other hint).
 
 ---
@@ -33,7 +44,7 @@ other hint).
 - **Multiple Study Modes** — Standard (flip cards), Listening (local TTS audio), Multiple Choice, and Speed mode
 - **CSV Import** — Bring your own decks in a simple CSV format
 - **Cloud Sync** — Optionally sync your decks via GitHub (Google Drive and such coming next if requested)
-- **Text-to-Speech** — Decent enough pronunciations for cards in supported language!
+- **Text-to-Speech** — Decent enough pronunciations for cards in supported languages!
 - **Dark Mode** — Full light/dark/system theme support
 - **Offline First** — All data stored locally on your device, no account required
 
